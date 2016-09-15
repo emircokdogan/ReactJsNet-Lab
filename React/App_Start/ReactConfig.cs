@@ -24,7 +24,10 @@ namespace React
                 .AddScript("~/Scripts/react.min.js")
                 .AddScript("~/Scripts/react-dom.min.js")
                 .AddScript("~/Scripts/showdown.js")
-                .AddScript("~/Scripts/Tutorial.jsx");
+                .AddScript("~/Scripts/comment.jsx")
+                .AddScript("~/Scripts/commentBox.jsx")
+                .AddScript("~/Scripts/commentList.jsx")
+                .AddScript("~/Scripts/commentForm.jsx");
 
         }
     }

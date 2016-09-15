@@ -180,6 +180,9 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="readme.txt" />
+    <Content Include="Scripts\commentBox.jsx" />
+    <Content Include="Scripts\commentForm.jsx" />
+    <Content Include="Scripts\commentList.jsx" />
     <Content Include="Scripts\react.min.js" />
     <Content Include="Scripts\react-dom.min.js" />
     <Content Include="Scripts\showdown.js" />
@@ -201,7 +204,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\Tutorial.jsx" />
+    <Content Include="Scripts\comment.jsx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

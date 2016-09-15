@@ -1,26 +1,30 @@
 ﻿@model IEnumerable<React.Models.CommentModel>
 
 @{
-    Layout = null;
+  Layout = null;
 }
-
 <html>
 <head>
-    <title>Hello React</title>
+  <title>Hello React</title>
 </head>
 <body>
-    @Html.React("CommentBox", new
-{
-    initialData = Model,
-    url = "/Home/Comments",
-    submitUrl = "/Home/AddComment",
-    pollInterval = 2000
+
+@Html.React("CommentBox", new {
+  initialData = Model,
+  url = "/Home/Comments",
+  submitUrl = "/Home/AddComment",
+  pollInterval = 2000
 })
-    <script src="@Url.Content("~/Scripts/react.min.js")"></script>
+
+@*<script src="@Url.Content("~/Scripts/react.min.js")"></script>
     <script src="@Url.Content("~/Scripts/react-dom.min.js")"></script>
     <script src="@Url.Content("~/Scripts/showdown.min.js")"></script>
-    <script src="@Url.Content("~/Scripts/Tutorial.jsx")"></script>
-    @Html.ReactInitJavaScript()
+    <script src="@Url.Content("~/Scripts/comment.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/commentBox.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/commentForm.jsx")"></script>
+    <script src="@Url.Content("~/Scripts/commentList.jsx")"></script>*@
+<script src="@Url.Content("~/bundles/main")"></script>
+@Html.ReactInitJavaScript()
 
 </body>
 </html>

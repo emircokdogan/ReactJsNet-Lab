@@ -13,7 +13,10 @@ namespace React
                 "~/Scripts/react.min.js",
                 "~/Scripts/react-dom.min.js",
                 "~/Scripts/showdown.js",
-                "~/Scripts/Tutorial.jsx"
+                "~/Scripts/comment.jsx",
+                "~/Scripts/commentList.jsx",
+                "~/Scripts/commentBox.jsx",
+                "~/Scripts/commentForm.jsx"
                 ));
         }
     }
